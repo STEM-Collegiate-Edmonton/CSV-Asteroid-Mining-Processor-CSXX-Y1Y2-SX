@@ -60,12 +60,12 @@ AST-002,15,33,21,69,258
 
 | Assessment Item | Criteria | Marks |
 |---|---|---:|
-| Reading CSV Data | Uses the `csv` module to read `asteroid_mining.csv` and processes each asteroid row. | 3 |
+| Reading CSV Data | Uses the `csv` module to read `input_asteroid_data.csv` and processes each asteroid row. | 3 |
 | Using Headers | Correctly accesses the existing data using the CSV headers. | 2 |
 | Numeric Conversion | Converts the resource values into integers before performing calculations. | 2 |
 | Total Units | Correctly calculates `total_units` for every asteroid. | 3 |
 | Cargo Value | Correctly calculates `cargo_value` using the required resource values. | 4 |
 | Updating Row Data | Adds both calculated values to the appropriate processed asteroid data. | 2 |
-| Writing the Output File | Creates `asteroid_mining_processed.csv` and writes the processed asteroid data to it without overwriting the original input file. | 2 |
+| Writing the Output File | Creates `output_asteroid_data.csv` and writes the processed asteroid data to it without overwriting the original input file. | 2 |
 | Output Headers | Writes all six required headers to the processed CSV file. | 2 |
 |  | **Total** | **20** |
